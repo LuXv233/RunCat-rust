@@ -1,6 +1,6 @@
 # RunCat (Rust 重写)
 
-本仓库是对原项目 RunCat365（https://github.com/Kyome22/RunCat365） 的 Rust 重写实现。
+本仓库是对原项目 RunCat365（[https://github.com/Kyome22/RunCat365](https://github.com/Kyome22/RunCat365)） 的 Rust 重写实现。
 本项目仅保留原项目中“一只在系统托盘奔跑的小猫”的视觉效果，并以 Rust 重写程序逻辑，用于学习与个人使用。
 
 ## 重要说明 — 版权与侵权风险
@@ -52,3 +52,4 @@ cargo run --release
 ## 致谢
 
 感谢原作 RunCat365 的设计与美术资源（见上方链接），本项目受其启发。
+
