@@ -1,0 +1,7 @@
+IDI_APP_ICON ICON "cat\\app_icon.ico"  
+//100 ICON "cat\\app_icon.ico"
+101 ICON "cat\\cat_0.ico"
+102 ICON "cat\\cat_1.ico"
+103 ICON "cat\\cat_2.ico"
+104 ICON "cat\\cat_3.ico"
+105 ICON "cat\\cat_4.ico"

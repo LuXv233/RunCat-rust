@@ -1,0 +1,39 @@
+[package]
+name = "run_cat"
+description = "一个系统性能监控工具，通过动画猫的速度展示CPU使用率"
+authors = ["您的名字"]
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "run_cat"
+path = "src/main.rs"
+
+# Windows平台特定设置，使其作为GUI应用运行而不是控制台应用
+[target.'cfg(windows)'.build-dependencies.winres]
+version = "0.1.12"
+
+[dependencies]
+sysinfo = "0.29.10"
+tray-icon = "0.11.0"
+winit = "0.29.15"
+clap = { version = "4.4.7", features = ["derive"] }
+muda = "0.11.5"
+winapi = { version = "0.3.9", features = [
+    "libloaderapi",
+    "shellapi",
+    "winuser",
+    "minwindef",
+    "windef",
+    "guiddef"
+] }
+
+[build-dependencies]
+winres = "0.1.12"
+embed-resource = "1"
+
+[profile.release]
+opt-level = 3
+lto = true
+codegen-units = 1
+panic = "abort"
