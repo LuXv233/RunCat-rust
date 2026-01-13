@@ -61,7 +61,8 @@
 开发环境要求：已安装 Rust（包含 cargo）。
 
 在仓库根目录执行：
-bash
+
+
 ```bash
 # 构建（Release）
 cargo build --release
@@ -112,6 +113,7 @@ cargo run --release
 
 
 非常感激/Very thankful
+
 
 
 
