@@ -2,10 +2,6 @@
 
 ## RunCat
 
-
-
-
-
 </h1>
 
 [![GitHub Stars](https://img.shields.io/github/stars/LuXv233/RunCat-rust?style=flat-square)](https://github.com/RayWangQvQ/BiliBiliToolPro/stargazers)
@@ -23,9 +19,6 @@
 本项目以 Rust 重现原项目中“一只在系统托盘奔跑的小猫”的视觉效果，并添加其他程序逻辑，用于学习与个人使用。
 
 
-
-
-
 ## 重要说明 — 版权与侵权风险
 
 
@@ -33,17 +26,11 @@
 - 如果你是原资源的版权所有者并希望本仓库移除/修改致谢或资源，请通过 issue 或者邮件方式联系仓库维护者。
 
 
-
-
-
 ## 归属与致谢
 
 
 - 视觉资源、原始设计与灵感来自：Kyome22 / RunCat365 — https://github.com/Kyome22/RunCat365
 - 本仓库代码遵循根目录 `LICENSE`（Apache-2.0）中声明的许可条款。
-
-
-
 
 
 ## 功能概览
@@ -54,9 +41,6 @@
 - 添加“专注时间”功能，开启后在屏幕上显示当前时间。
 - 添加深色/浅色切换功能。
 - 添加开机自启功能:)。
-
-
-
 
 
 ## 构建与运行（Windows / PowerShell）
@@ -80,9 +64,6 @@ cargo run --release
 注意：在 Windows 上直接运行可执行文件会在系统托盘创建图标，测试时请检查托盘区域。
 
 
-
-
-
 ## 常见问题
 
 
@@ -91,10 +72,7 @@ cargo run --release
 [Discussions（讨论）](https://github.com/LuXv233/RunCat-rust/discussions)板块可以用来**提问**和**讨论**。
 
 
-
-
-
-## 6. 版本发布及更新
+## 版本发布及更新
 
 
 当前正处于稳定的迭代开发中，想要有重要更新时收到通知的话，可以把仓库右上角的`Star`按钮点亮。
@@ -106,9 +84,6 @@ cargo run --release
   （小字:等我发现受启发的项目，就添加功能）
 
 
-
-
-
 ## 致谢
 
 
@@ -116,4 +91,5 @@ cargo run --release
 
 
 非常感激/Very thankful
+
 
