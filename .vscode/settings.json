@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^cargo run$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}
